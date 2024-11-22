@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: #333;
+    color: #fff;
+}
+
+header img.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main Content */
+main {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #333;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #555;
+    margin-bottom: 1rem;
+}
+
+/* Social Links Styling */
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links .btn {
+    display: inline-block;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.social-links .btn.linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+}
+
+.social-links .btn.github {
+    background-color: #333; /* GitHub black */
+}
+
+.social-links .btn:hover {
+    opacity: 0.9;
+}
+
+/* Project Section */
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project h3 {
+    color: #007bff;
+    font-size: 1.4rem;
+}
+
+.project p {
+    margin: 0.5rem 0;
+}
+
+/* About Section */
+#about p {
+    text-align: justify;
+}
+
+/* Contact Section */
+#contact p {
+    margin: 0.5rem 0;
+}
+
+#contact strong {
+    color: #007bff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
